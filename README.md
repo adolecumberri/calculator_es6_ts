@@ -1,16 +1,16 @@
-# calculator_es6_ts
+# calculator done with ES6 and TypeScript
 
-Clasic and casual calculator but done with ES6 and TypesScript
+Clasic and casual calculator but done with ES6 and TypesScript.
 
 ## Getting Started
 
-Just execute, the .ts file is already compiled.
+Just execute the index.html, the .ts file is already compiled.
 
 ```
 index.html
 ```
 
-### To compile by yourself
+### To compile it by yourself
 
 Install TypeScript globaly
 ```
@@ -19,7 +19,7 @@ npm install -g typescript
 
 And create a tsconfig.json
 ```
-tsc --init
+tsc --init (not tsc init)
 ```
 
 Uncomment the strict option to avoid compilation problems with ECMAS 6
