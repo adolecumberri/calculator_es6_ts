@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora-Ts</title>
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/calculator_logic.js"> </script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style376.css">
+</head>
+
+<body>
+    <div name="calculator" id="calculator">
+        <table>
+            <tbody>
+                <tr>
+                    <td class="my-screen-tr" colspan="4">
+                        <input type="text" name="my-screen" id="my-screen" disabled>
+                    </td>
+                    <td class="my-calculator-button">
+                        <input type="button" value="1" onclick="addNum(this)">
+                        <input type="button" value="2" onclick="addNum(this)">
+                        <input type="button" value="3" onclick="addNum(this)">
+                        <input type="button" value="+" onclick="addOperator(this)">
+                    </td>
+                    <td class="my-calculator-button">
+                        <input type="button" value="4" onclick="addNum(this)">
+                        <input type="button" value="5" onclick="addNum(this)">
+                        <input type="button" value="6" onclick="addNum(this)">
+                        <input type="button" value="-" onclick="addOperator(this)">
+                    </td>
+                    <td class="my-calculator-button">
+                        <input type="button" value="7" onclick="addNum(this)">
+                        <input type="button" value="8" onclick="addNum(this)">
+                        <input type="button" value="9" onclick="addNum(this)">
+                        <input type="button" value="*" onclick="addOperator(this)">
+                    </td>
+                    <td class="my-calculator-button">
+                        <input type="button" value="C" onclick="resetC()">
+                        <input type="button" value="0" onclick="addNum(this)">
+                        <input type="button" value="=" onclick="operate()">
+                        <input type="button" value="/" onclick="addOperator(this)">
+                    </td>
+                </tr>
+            </tbody>
+
+
+        </table>
+    </div>
+</body>
+
+</html>

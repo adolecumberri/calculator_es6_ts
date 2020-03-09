@@ -1,0 +1,52 @@
+@media only screen and (max-width:376px) {
+    body {
+        margin : 0px;
+    }
+
+    td{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    table {
+        height: 100vh;
+        margin: 0px;
+        width: 100vw;
+    }
+
+    .my-screen-tr{
+        margin-bottom : 15vh;
+    }
+
+    .calculator {
+        display: flex;
+    }
+    .my-calculator-button {
+        margin : 15px 0px;
+    }
+
+
+    .my-calculator-button input{   
+        width: 23vw;
+        height: 11vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .my-calculator-button{
+        height: 11vh;
+    }
+
+    #my-screen{
+        width: 100%;
+        margin-top: 6%;
+        height: 11vh;
+    }
+
+    #my-screen-row{
+        height: 11vh;
+    }
+
+
+
+}

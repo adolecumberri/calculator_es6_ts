@@ -1,0 +1,132 @@
+
+@font-face {
+    font-family: calculatorFont;
+    src: url(digital-7.ttf);
+}
+
+body {
+    background-color: #DDD /**/
+}
+
+tr {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    margin: auto;
+    margin-top: 70px;
+    background-color: #2F2F2F; /* color carbon */
+    width: 297px;
+    height: 325px;
+    text-align: center;
+    border-radius: 4px; /* elimino picos */
+    padding-right: 10px;
+    box-shadow: 6px 6px #111;
+}
+
+input {
+    font-family: calculatorFont;
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0;
+    color: #495069;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+    margin-bottom: 15px;
+    box-shadow: 0px 4px #b0d2cf;
+}
+
+input:hover {
+    border: 0 solid #000;
+    color: #495069;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    /*margin: 5px;*/
+    font-size: 20px;
+        box-shadow: 0 4px #b0d2cf;
+}
+
+
+input:active {
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0;
+    color: #495069;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 60px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+
+    height: 48px;  /*quito 2px*/
+    margin-top: 6px;  /*meto margin top para que baje*/
+    box-shadow: 0 4px #FFF; /*como se chapa el boton, caja a blanco.*/
+    /* #AdolfoTheIlusionist*/
+
+}
+
+#my-screen {
+    padding-right: 15px;
+    font-family: calculatorFont;
+    width: 256px;  /*si aqui pone 300 y el hover dice 270px, se deforma al pasar por encima*/
+    font-size: 26px;
+    text-align: right;
+    background-color: #EEE;
+    box-shadow: 0 4px #BBB;
+    float: left;
+}
+
+#my-screen:hover {
+    width: 256px;
+    font-size: 26px;
+    text-align: right;
+    background-color: EEE;
+    float: left;
+}
+#my-tryal-table{
+    margin-top: 60px;
+    width: 320px;
+    height: 70px;
+    text-align: center;
+    border-radius: 6px; /* elimino picos */
+    padding-right: 10px;
+    background-color: #BBB; 
+    box-shadow: 4px 4px #999;
+ }
+
+#my-num1-prueba, #my-operador-prueba, #my-num2-prueba{
+    font-family: calculatorFont;
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0;
+    color: #495069;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 80px;
+    height: 30px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+    margin-bottom: 15px;
+    box-shadow: 0 4px #CCC;
+}
